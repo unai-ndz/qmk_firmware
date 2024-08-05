@@ -1,0 +1,26 @@
+#define VIAL_KEYBOARD_UID {0xCF, 0x16, 0x39, 0xB6, 0x59, 0xD4, 0x51, 0x15}
+
+{
+    "usb": {
+        "vid": "0x594D",
+        "pid": "0x4409",
+        "device_version": "0.0.1"
+    },
+}
+/* This a shortcut to help you visually see your layout.
+ *
+ * The first section contains all of the arguments representing the physical
+ * layout of the board and position of the keys.
+ *
+ * The second converts the arguments into a two-dimensional array which
+ * represents the switch matrix.
+ */
+// #define LAYOUT_ortho_7x3( \
+//     K00, K01, K02,      K04,\
+//     K10, K11, K12,          \
+//     K20, K21, K22, K23, K24 \
+// ) { \
+//     { K00,   K01,   K02,   KC_NO, K04   }, \
+//     { K10,   K11,   K12,   KC_NO, KC_NO }, \
+//     { K20,   K21,   K22,   K23,   K24   }  \
+// }
