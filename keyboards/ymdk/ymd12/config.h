@@ -21,7 +21,7 @@
 // #include "config_common.h"
 
 #undef STM32_HSECLK
-#define STM32_HSECLK 8000000
+#define STM32_HSECLK 16000000
 
 #define TAPPING_TOGGLE 2
 #define DYNAMIC_KEYMAP_LAYER_COUNT 14
