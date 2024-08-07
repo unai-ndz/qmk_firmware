@@ -24,3 +24,16 @@
 //     { K10,   K11,   K12,   KC_NO, KC_NO }, \
 //     { K20,   K21,   K22,   K23,   K24   }  \
 // }
+
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "keyboard.json"
+            ],
+            "url": "data/schemas/keyboard.jsonschema"
+        }
+    ],
+
+
+cd /c/mmk/vial-qmk
+make f103/ymd68:via

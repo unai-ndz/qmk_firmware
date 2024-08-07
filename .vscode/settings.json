@@ -30,5 +30,13 @@
     },
     "clangd.arguments": [
         "--header-insertion=never"
-    ]
+    ],
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "keyboard.json"
+            ],
+            "url": "./data/schemas/keyboard.jsonschema"
+        }
+    ],
 }
